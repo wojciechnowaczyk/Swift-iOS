@@ -12,8 +12,8 @@ struct Question {
     let text: String
     let answer: String
     
-    init(question: String, answer: String){
-        text = question
-        self.answer = answer
+    init(q: String, a: String){
+        text = q
+        answer = a
     }
 }
